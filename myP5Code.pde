@@ -19,8 +19,8 @@ if(mousePressed){
 
 var drawStars = function() {
     for (var i = 0; i < yPositions.length; i++) {
-      textSize(300);
-        text("⭐", xPositions[i], yPositions[i]);
+      textSize(30);
+        text("deez", xPositions[i], yPositions[i]);
     }
 };
 
